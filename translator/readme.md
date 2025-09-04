@@ -1,5 +1,5 @@
 # Console translator made with `argostranslate` library.
----
+
 ### The translation is not very good (at least on current argostranslate models). You can see the available commands by simply typing `/`
 ---
 
