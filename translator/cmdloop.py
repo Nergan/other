@@ -1,5 +1,5 @@
 from os import _exit, system
-from typing import Iterable, Callable
+from typing import Callable
         
         
 class Cmd:
