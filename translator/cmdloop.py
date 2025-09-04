@@ -13,7 +13,7 @@ class Cmd:
         
 class Loop:
     def __init__(self):
-        self.cmds = [Cmd(('cls'), cls)]
+        self.cmds = [Cmd('cls', cls)]
         self.default = print
         self.placeholder = '> '
         self.ch = '/'
