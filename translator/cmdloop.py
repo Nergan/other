@@ -20,10 +20,7 @@ class Loop:
         self.help = None
         
         
-    def add_cmd(self, cmd, fun):
-        if not isinstance(cmd, Iterable):
-            cmd = (cmd, fun)
-            
+    def add_cmd(self, cmd, fun):           
         cmd = Cmd(cmd, fun)
         self.cmds.append(cmd)
         
